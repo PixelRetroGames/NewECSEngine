@@ -1,0 +1,30 @@
+{
+    "entities" : [
+        {
+            "tag" : "ent1",
+            "components" : [
+                {
+                    "name" : "Transform2D",
+                    "args" : "10, 20"
+                },
+                {
+                    "name" : "Scaling",
+                    "args" : "1, 2"
+                }
+            ]
+        },
+        {
+            "tag" : "ent2",
+            "components" : [
+                {
+                    "name" : "Transform2D",
+                    "args" : "100, 30"
+                },
+                {
+                    "name" : "Scaling",
+                    "args" : "10, 10"
+                }
+            ]
+        }
+    ]
+}

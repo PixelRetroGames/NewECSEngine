@@ -1,0 +1,73 @@
+{
+    "archetypes": [
+        {
+            "name": "RenderedImage",
+            "components": [
+                {
+                    "type": "Rendered",
+                },
+            ]
+        }
+    ],
+
+    "prefabs": [
+        {
+            "name": "RenderedImage",
+            "components": [
+                {
+                    "type": "Rendered",
+                    "value": {
+                        "render": true,
+                    },
+                },
+            ]
+        }
+    ],
+
+    "entities": [
+        {
+            "prefab": "RenderedImage",
+            "tag": "RenderedSampleImage",
+            "components": [
+                {
+                    "type": "Texture",
+                    "value": {
+                        "path": "loaded.png",
+                    },
+                },
+                {
+                    "type": "Transform2D",
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                    },
+                },
+            ]
+        },
+        {
+            "archetype": "RenderedImage",
+            "tag": "HiddenSampleImage",
+            "components": [
+                {
+                    "type": "Texture",
+                    "value": {
+                        "path": "loaded.png",
+                    },
+                },
+                {
+                    "type": "Transform2D",
+                    "value": {
+                        "x": 100,
+                        "y": 100,
+                    },
+                },
+                {
+                    "type": "Rendered",
+                    "value": {
+                        "render": true,
+                    },
+                },
+            ]
+        },
+    ],
+}

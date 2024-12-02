@@ -1,0 +1,3016 @@
+# depslib dependency file v1.0
+1732017963 source:e:\programming\enginesq\main.cpp
+	"src/engine/SDL_init.h"
+	"src/engine/surface_factory.h"
+	"src/engine/window.h"
+	"src/engine/resource_manager.h"
+	"src/ecs/engine.h"
+	"src/ecs/scene_loader/scene_loader.h"
+	"src/game_engine/engine.h"
+	"space_shooter_game/game.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\close_code.h
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580253 e:\programming\enginesq\redist\i686-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714580317 e:\programming\enginesq\redist\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1714576717 e:\programming\enginesq\redist\sdl2-2.30.3\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1704144973 e:\programming\enginesq\redist\sdl2_image-2.8.2\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1705848875 e:\programming\enginesq\redist\sdl2_ttf-2.22.0\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1705857752 e:\programming\enginesq\redist\sdl2_mixer-2.8.0\x86_64-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1717136877 source:e:\programming\enginesq\src\engine\graphics\texture.cpp
+	"texture.h"
+
+1717133277 source:e:\programming\enginesq\src\logging\color.cpp
+	"color.h"
+
+1717133277 e:\programming\enginesq\src\logging\color.h
+	<windows.h>
+
+1717133277 source:e:\programming\enginesq\src\logging\ctimer.cpp
+	"ctimer.h"
+
+1717133277 e:\programming\enginesq\src\logging\ctimer.h
+	<ctime>
+	<chrono>
+
+1717317820 source:e:\programming\enginesq\src\logging\log_query.cpp
+	"log_query.h"
+
+1717317674 e:\programming\enginesq\src\logging\log_query.h
+	<cstdio>
+	<string>
+	<cstdarg>
+
+1717578315 source:e:\programming\enginesq\src\logging\specialized_logger.cpp
+	"specialized_logger.h"
+
+1717578257 e:\programming\enginesq\src\logging\specialized_logger.h
+	"color.h"
+	"log_query.h"
+	<cstdio>
+	<string>
+	<cstdarg>
+	<ctime>
+	<sys/time.h>
+	<algorithm>
+	<queue>
+	<string>
+
+1717591159 source:e:\programming\enginesq\src\logging\logger.cpp
+	"logger.h"
+
+1730824802 e:\programming\enginesq\src\logging\logger.h
+	"thread_safe_queue.h"
+	"color.h"
+	"specialized_logger.h"
+	"log_query.h"
+	"ctimer.h"
+	<vector>
+	<unordered_map>
+	<queue>
+	<thread>
+	<mutex>
+	<atomic>
+
+1717076026 e:\programming\enginesq\src\logging\logging.h
+	"logger.h"
+
+1717582910 source:e:\programming\enginesq\src\engine\sdl_init.cpp
+	"SDL_init.h"
+
+1717133277 e:\programming\enginesq\src\engine\sdl_init.h
+	<cstdlib>
+	<cstdio>
+	<string>
+	<vector>
+	<map>
+	<stack>
+	<algorithm>
+	<cstring>
+	"SDL_includes.h"
+	"../logging/logging.h"
+
+1717077551 e:\programming\enginesq\src\engine\sdl_includes.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+
+1717136877 source:e:\programming\enginesq\src\engine\graphics\surface.cpp
+	"surface.h"
+
+1717136877 e:\programming\enginesq\src\engine\graphics\surface.h
+	"../SDL_includes.h"
+	"../../logging/logging.h"
+
+1717321628 source:e:\programming\enginesq\src\engine\graphics\surface_factory.cpp
+	"surface_factory.h"
+
+1717136877 e:\programming\enginesq\src\engine\graphics\surface_factory.h
+	"surface.h"
+
+1717320076 source:e:\programming\enginesq\src\engine\graphics\utils.cpp
+	"utils.h"
+
+1717320076 e:\programming\enginesq\src\engine\graphics\utils.h
+	<cstdio>
+	"SDL.h"
+
+1717136877 e:\programming\enginesq\src\engine\graphics\texture.h
+	"utils.h"
+	"../../logging/logging.h"
+
+1717136877 source:e:\programming\enginesq\src\engine\graphics\events.cpp
+	"events.h"
+
+1717136877 e:\programming\enginesq\src\engine\graphics\events.h
+	"SDL.h"
+	"scancodes.h"
+
+1717136877 e:\programming\enginesq\src\engine\graphics\scancodes.h
+
+1717136877 source:e:\programming\enginesq\src\engine\graphics\controller.cpp
+	"controller.h"
+
+1717136877 e:\programming\enginesq\src\engine\graphics\controller.h
+	"utils.h"
+	"../../logging/logging.h"
+
+1717320047 source:e:\programming\enginesq\src\engine\graphics\font.cpp
+	"font.h"
+
+1717320047 e:\programming\enginesq\src\engine\graphics\font.h
+	<string>
+	"SDL_TTF.h"
+	"utils.h"
+	"../../logging/logging.h"
+
+1717321626 source:e:\programming\enginesq\src\engine\graphics\window.cpp
+	"window.h"
+
+1717319943 e:\programming\enginesq\src\engine\graphics\window.h
+	"utils.h"
+	"surface.h"
+	"render.h"
+	"events.h"
+	"controller.h"
+	"window_attributes.h"
+
+1717159162 e:\programming\enginesq\src\engine\graphics\render.h
+	"texture.h"
+	"font.h"
+	"surface_factory.h"
+
+1717136877 e:\programming\enginesq\src\engine\graphics\window_attributes.h
+
+1717321628 source:e:\programming\enginesq\src\engine\graphics\render.cpp
+	"render.h"
+
+1730823189 source:e:\programming\enginesq\src\engine\events.cpp
+	"events.h"
+
+1730823234 e:\programming\enginesq\src\engine\events.h
+	"SDL.h"
+	"scancodes.h"
+
+1717133277 e:\programming\enginesq\src\engine\scancodes.h
+
+1730823884 source:e:\programming\enginesq\src\engine\utils.cpp
+	"utils.h"
+
+1733131689 e:\programming\enginesq\src\engine\utils.h
+	<cstdio>
+	<chrono>
+	<tuple>
+	"SDL.h"
+
+1717133277 source:e:\programming\enginesq\src\engine\controller.cpp
+	"controller.h"
+
+1717387700 e:\programming\enginesq\src\engine\controller.h
+	"utils.h"
+	"../logging/logging.h"
+
+1717591159 source:e:\programming\enginesq\src\engine\texture.cpp
+	"texture.h"
+
+1733131689 e:\programming\enginesq\src\engine\texture.h
+	"utils.h"
+	"font.h"
+	"../logging/logging.h"
+
+1717133277 source:e:\programming\enginesq\src\engine\surface.cpp
+	"surface.h"
+
+1717387714 e:\programming\enginesq\src\engine\surface.h
+	"SDL_includes.h"
+	"../logging/logging.h"
+
+1730825412 source:e:\programming\enginesq\src\engine\surface_factory.cpp
+	"surface_factory.h"
+
+1732026826 e:\programming\enginesq\src\engine\surface_factory.h
+	"surface.h"
+
+1719810587 source:e:\programming\enginesq\src\engine\font.cpp
+	"font.h"
+
+1719810587 e:\programming\enginesq\src\engine\font.h
+	<string>
+	"SDL_TTF.h"
+	"utils.h"
+	"../logging/logging.h"
+
+1717321628 source:e:\programming\enginesq\src\engine\render.cpp
+	"render.h"
+
+1717159162 e:\programming\enginesq\src\engine\render.h
+	"texture.h"
+	"font.h"
+	"surface_factory.h"
+
+1732021248 source:e:\programming\enginesq\src\engine\window.cpp
+	"window.h"
+
+1730823252 e:\programming\enginesq\src\engine\window.h
+	"utils.h"
+	"surface.h"
+	"renderer.h"
+	"events.h"
+	"controller.h"
+	"window_attributes.h"
+
+1717133277 e:\programming\enginesq\src\engine\window_attributes.h
+
+1717391368 source:e:\programming\enginesq\src\engine\resource_manager.cpp
+
+1733131689 e:\programming\enginesq\src\engine\resource_manager.h
+	<memory>
+	<unordered_map>
+	<vector>
+	<algorithm>
+
+1717591159 source:e:\programming\enginesq\test\main.cpp
+	<cstdio>
+	"gtest/gtest.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest.h
+	<cstddef>
+	<cstdint>
+	<limits>
+	<memory>
+	<ostream>
+	<set>
+	<sstream>
+	<string>
+	<type_traits>
+	<vector>
+	"gtest/gtest-assertion-result.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-matchers.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+	"gtest/gtest_prod.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-assertion-result.h
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-port.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-message.h
+	<limits>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	"gtest/internal/gtest-port.h"
+	<type_traits>
+	"absl/strings/has_absl_stringify.h"
+	"absl/strings/str_cat.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-port.h
+	<version>
+	<ciso646>
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cerrno>
+	<cstdint>
+	<iostream>
+	<limits>
+	<locale>
+	<memory>
+	<ostream>
+	<string>
+	<tuple>
+	<type_traits>
+	<vector>
+	<sys/stat.h>
+	<sys/types.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	"gtest/internal/custom/gtest-port.h"
+	"gtest/internal/gtest-port-arch.h"
+	"absl/flags/declare.h"
+	"absl/flags/flag.h"
+	"absl/flags/reflection.h"
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<strings.h>
+	<unistd.h>
+	<android/api-level.h>
+	"absl/strings/string_view.h"
+	"re2/re2.h"
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	<condition_variable>
+	<mutex>
+	"absl/types/any.h"
+	<any>
+	"absl/types/optional.h"
+	<optional>
+	"absl/strings/string_view.h"
+	<string_view>
+	"absl/types/variant.h"
+	<variant>
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\custom\gtest-port.h
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-port-arch.h
+	<winapifamily.h>
+	<TargetConditionals.h>
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-death-test-internal.h
+	<stdio.h>
+	<memory>
+	<string>
+	"gtest/gtest-matchers.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-matchers.h
+	<atomic>
+	<functional>
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-printers.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-printers.h
+	<functional>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	<tuple>
+	<type_traits>
+	<typeinfo>
+	<utility>
+	<vector>
+	"absl/strings/has_absl_stringify.h"
+	"absl/strings/str_cat.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	<span>
+	"gtest/internal/custom/gtest-printers.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<cstdint>
+	<functional>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-type-util.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-filepath.h
+	<string>
+	<utility>
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-string.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<cstdint>
+	<sstream>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-type-util.h
+	<string>
+	<type_traits>
+	<typeinfo>
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\custom\gtest-printers.h
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-param-test.h
+	<iterator>
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\internal\gtest-param-util.h
+	<ctype.h>
+	<cassert>
+	<iterator>
+	<map>
+	<memory>
+	<ostream>
+	<set>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<vector>
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<ostream>
+	<string>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest_pred_impl.h
+	"gtest/gtest-assertion-result.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1717498171 e:\programming\enginesq\googletest\googletest\include\gtest\gtest_prod.h
+
+1717422941 source:e:\programming\enginesq\test\sample1.cc
+	"sample1.h"
+
+1717422935 e:\programming\enginesq\test\sample1.h
+
+1717422948 source:e:\programming\enginesq\test\sample1_unittest.cc
+	"sample1.h"
+	<limits.h>
+	"gtest/gtest.h"
+
+1717506798 source:e:\programming\enginesq\test\engine\resource_manager_test.cpp
+	"../../src/engine/resource_manager.h"
+	<functional>
+	"gtest/gtest.h"
+
+1730798304 source:e:\programming\enginesq\test\engine\resource_manager_unittest.cpp
+	"../../src/engine/resource_manager.h"
+	<functional>
+	"gtest/gtest.h"
+
+1717591159 e:\programming\enginesq\src\logging\thread_safe_queue.h
+	<mutex>
+	<condition_variable>
+	<queue>
+
+1732021229 source:e:\programming\enginesq\src\engine\renderer.cpp
+	"renderer.h"
+
+1732026841 e:\programming\enginesq\src\engine\renderer.h
+	<thread>
+	"texture.h"
+	"font.h"
+	"surface_factory.h"
+
+1730907853 source:e:\programming\enginesq\test\ecs\component_unittest.cpp
+	"../../src/ecs/component.h"
+	"gtest/gtest.h"
+
+1733131689 e:\programming\enginesq\src\ecs\component.h
+	<set>
+	<typeinfo>
+	<typeindex>
+	"common.h"
+
+1730908078 source:e:\programming\enginesq\test\ecs\entity_unittest.cpp
+	"../../src/ecs/entity.h"
+	"../../src/ecs/engine.h"
+	"gtest/gtest.h"
+
+1728924818 e:\programming\enginesq\src\ecs\entity.h
+	<functional>
+	"common.h"
+
+1733131689 e:\programming\enginesq\src\ecs\engine.h
+	<unordered_map>
+	<map>
+	<vector>
+	<memory>
+	<iostream>
+	<tuple>
+	<type_traits>
+	<utility>
+	"entity.h"
+	"component.h"
+	"component_manager.h"
+	"../engine/utils.h"
+	"unique_ids_manager.h"
+	"system_manager.h"
+	"component_usage_types.h"
+	"../logging/logging.h"
+
+1731599802 source:e:\programming\enginesq\src\ecs\engine.cpp
+	"engine.h"
+
+1718255047 source:e:\programming\enginesq\src\ecs\entity.cpp
+	"entity.h"
+
+1730908329 source:e:\programming\enginesq\test\ecs\engine_unittest.cpp
+	"gtest/gtest.h"
+	"../../src/ecs/engine.h"
+
+1730795668 e:\programming\enginesq\src\ecs\common.h
+
+1730908008 source:e:\programming\enginesq\test\ecs\component_manager_unittest.cpp
+	"gtest/gtest.h"
+	"../../src/ecs/component_manager.h"
+	<memory>
+
+1733131689 e:\programming\enginesq\src\ecs\component_manager.h
+	"component_usage_types.h"
+	"entity.h"
+	"../logging/logging.h"
+	<typeinfo>
+	<iterator>
+	<cstddef>
+
+1730795927 source:e:\programming\enginesq\src\ecs\component.cpp
+	"component.h"
+
+1732209528 source:e:\programming\enginesq\benchmarksrc\main.cpp
+	<benchmark/benchmark.h>
+	"ecs/benchmark_call.h"
+
+1719810847 e:\programming\enginesq\benchmark\include\benchmark\benchmark.h
+	<stdint.h>
+	<algorithm>
+	<cassert>
+	<cstddef>
+	<iosfwd>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<utility>
+	<vector>
+	"benchmark/export.h"
+	<atomic>
+	<initializer_list>
+	<type_traits>
+	<utility>
+	<intrin.h>
+
+1719810847 e:\programming\enginesq\benchmark\include\benchmark\export.h
+
+1730908505 e:\programming\enginesq\benchmarksrc\ecs\benchmark_call.h
+	<benchmark/benchmark.h>
+	"../../src/ecs/engine.h"
+
+1719894082 source:e:\programming\enginesq\benchmarksrc\ecs\benchmark_call.cpp
+	"benchmark_call.h"
+	<stdio.h>
+
+1720686993 source:e:\programming\enginesq\space_shooter.cpp
+	"space_shooter.h"
+	<stdio.h>
+	"src/engine/SDL_init.h"
+	"src/engine/surface_factory.h"
+	"src/engine/window.h"
+	"src/engine/resource_manager.h"
+	"src/ecs/engine.h"
+
+1720421567 e:\programming\enginesq\space_shooter.h
+	"src/engine/window.h"
+
+1731353236 e:\programming\enginesq\src\ecs\unique_ids_manager.h
+	<queue>
+	"common.h"
+
+1733131689 e:\programming\enginesq\src\ecs\system_manager.h
+	"unique_ids_manager.h"
+	<functional>
+	<unordered_map>
+	"component_usage_types.h"
+
+1730535867 source:e:\programming\enginesq\src\ecs\system_manager.cpp
+	"system_manager.h"
+
+1733131689 e:\programming\enginesq\src\ecs\component_usage_types.h
+	"component.h"
+
+1720687381 e:\programming\enginesq\redist\nlohmann-json\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<numeric>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<type_traits>
+	<utility>
+	<tuple>
+	<string>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<type_traits>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
+1732716311 source:e:\programming\enginesq\space_shooter_game\game.cpp
+	"game.h"
+	<typeindex>
+	<typeinfo>
+	"../src/ecs/engine.h"
+	"components.h"
+	"systems.h"
+	"../src/dynamic_loader/dynamic_loader.h"
+	"shared.h"
+
+1720688001 e:\programming\enginesq\space_shooter_game\game.h
+	"../src/engine/window.h"
+
+1732620454 e:\programming\enginesq\space_shooter_game\components.h
+	"../src/engine/resource_manager.h"
+	"../src/ecs/engine.h"
+	"../src/engine/scancodes.h"
+	<string>
+	<sstream>
+	<iomanip>
+	"glm.hpp"
+
+1732206767 e:\programming\enginesq\space_shooter_game\systems.h
+	"collision_detection_system.h"
+	"bullet_collision_system.h"
+	"collider_debug_system.h"
+	"health_renderer.h"
+	"physics_system.h"
+	"collision_resolution_system.h"
+	"physics_transform_update_system.h"
+	"player_movement_system.h"
+	"shared.h"
+
+1730706338 e:\programming\enginesq\space_shooter_game\player_movement_system.h
+	"shared.h"
+
+1730706288 source:e:\programming\enginesq\space_shooter_game\player_movement_system.cpp
+	"player_movement_system.h"
+
+1730823834 source:e:\programming\enginesq\space_shooter_game\velocity_movement_system.cpp
+	"velocity_movement_system.h"
+
+1721021595 e:\programming\enginesq\space_shooter_game\velocity_movement_system.h
+	"../src/ecs/engine.h"
+	"../src/engine/window.h"
+	"components.h"
+
+1721021987 e:\programming\enginesq\space_shooter_game\texture_renderer_system.h
+	"../src/ecs/engine.h"
+	"../src/engine/window.h"
+	"components.h"
+
+1732125442 e:\programming\enginesq\space_shooter_game\bullet_shooter_system.h
+	"shared.h"
+
+1730998900 source:e:\programming\enginesq\space_shooter_game\texture_renderer_system.cpp
+	"texture_renderer_system.h"
+
+1721025992 source:e:\programming\enginesq\space_shooter_game\bullet_shooter_system.cpp
+	"bullet_shooter_system.h"
+
+1721026283 e:\programming\enginesq\space_shooter_game\destroy_on_collision_system.h
+	"../src/ecs/engine.h"
+	"../src/engine/window.h"
+	"components.h"
+
+1721103201 e:\programming\enginesq\space_shooter_game\collision_detection_system.h
+	"../src/ecs/engine.h"
+	"../src/engine/window.h"
+	"components.h"
+
+1732553499 source:e:\programming\enginesq\space_shooter_game\collision_detection_system.cpp
+	"collision_detection_system.h"
+
+1731351513 source:e:\programming\enginesq\space_shooter_game\bullet_collision_system.cpp
+	"bullet_collision_system.h"
+
+1722854209 e:\programming\enginesq\space_shooter_game\bullet_collision_system.h
+	"../src/ecs/engine.h"
+	"../src/engine/window.h"
+	"components.h"
+
+1728043060 source:e:\programming\enginesq\space_shooter_game\collider_debug_system.cpp
+	"collider_debug_system.h"
+
+1731327376 e:\programming\enginesq\space_shooter_game\collider_debug_system.h
+	"shared.h"
+
+1729754295 e:\programming\enginesq\space_shooter_game\health_renderer.h
+	"../src/ecs/engine.h"
+	"../src/engine/window.h"
+	"components.h"
+	"shared.h"
+	<string>
+
+1730737141 e:\programming\enginesq\src\ecs\scene_loader\scene_loader.h
+	<string>
+	<unordered_map>
+	<fstream>
+	"json.hpp"
+
+1730825231 source:e:\programming\enginesq\src\ecs\scene_loader\scene_loader.cpp
+	"scene_loader.h"
+
+1729604304 e:\programming\enginesq\dynamictest\dynamicloader.h
+	<windows.h>
+	<string>
+	<typeindex>
+	<typeinfo>
+	"extern/va_opt.hpp"
+	"extern/map.h"
+	"../src/ecs/engine.h"
+	"../space_shooter_game/components.h"
+
+1729582670 source:e:\programming\enginesq\dynamictest\dynamicloader.cpp
+	"dynamicLoader.h"
+	<iostream>
+
+1731498817 source:e:\programming\enginesq\dynamictest\scripts\script.cpp
+	<iostream>
+	"script.h"
+	"../../src/engine/texture.h"
+	"../../space_shooter_game/shared.h"
+
+1732018807 e:\programming\enginesq\dynamictest\scripts\script.h
+	<iostream>
+	"../dynamic_script_interface.h"
+	"../../space_shooter_game/shared.h"
+
+1729530208 e:\programming\enginesq\dynamictest\extern\va_opt.hpp
+
+1729532429 e:\programming\enginesq\dynamictest\extern\map.h
+
+1732210714 e:\programming\enginesq\space_shooter_game\shared.h
+	"../src/engine/window.h"
+	"../src/engine/resource_manager.h"
+	"../src/ecs/engine.h"
+	"../src/dynamic_loader/wrapper_generators.h"
+	"../src/dynamic_loader/dynamic_loader.h"
+	"../space_shooter_game/components.h"
+
+1730128380 e:\programming\enginesq\space_shooter_game\physics_system.h
+	"shared.h"
+
+1730974203 source:e:\programming\enginesq\space_shooter_game\physics_system.cpp
+	"physics_system.h"
+
+1731515659 source:e:\programming\enginesq\space_shooter_game\shared.cpp
+	"shared.h"
+
+1729763333 e:\programming\enginesq\space_shooter_game\collision_resolution_system.h
+	"shared.h"
+
+1732534551 source:e:\programming\enginesq\space_shooter_game\collision_resolution_system.cpp
+	"collision_resolution_system.h"
+	<unordered_set>
+
+1732716840 source:e:\programming\enginesq\space_shooter_game\physics_transform_update_system.cpp
+	"physics_transform_update_system.h"
+
+1730128951 e:\programming\enginesq\space_shooter_game\physics_transform_update_system.h
+	"shared.h"
+
+1730129975 e:\programming\enginesq\redist\box2d\include\box2d\box2d.h
+	"base.h"
+	"collision.h"
+	"id.h"
+	"types.h"
+	<stdbool.h>
+
+1730129975 e:\programming\enginesq\redist\box2d\include\box2d\base.h
+	<stdint.h>
+
+1730129975 e:\programming\enginesq\redist\box2d\include\box2d\collision.h
+	"base.h"
+	"math_functions.h"
+	<stdbool.h>
+
+1730129975 e:\programming\enginesq\redist\box2d\include\box2d\math_functions.h
+	"base.h"
+	<float.h>
+	<math.h>
+	<stdbool.h>
+
+1730129975 e:\programming\enginesq\redist\box2d\include\box2d\id.h
+	"base.h"
+	<stdint.h>
+
+1730129975 e:\programming\enginesq\redist\box2d\include\box2d\types.h
+	"base.h"
+	"collision.h"
+	"id.h"
+	"math_functions.h"
+	<stdbool.h>
+	<stdint.h>
+
+1731498510 source:e:\programming\enginesq\dynamictest\dynamic_loader.cpp
+	<iostream>
+
+1732113306 e:\programming\enginesq\dynamictest\dynamic_loader.h
+	"dynamic_script_interface.h"
+	<windows.h>
+
+1732017157 e:\programming\enginesq\dynamictest\wrapper_generators.h
+	<string>
+	<typeindex>
+	<typeinfo>
+	"extern/va_opt.hpp"
+	"extern/map.h"
+
+1731498613 e:\programming\enginesq\dynamictest\dynamic_script_interface.h
+
+1730966274 e:\programming\enginesq\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1730966274 e:\programming\enginesq\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1730966274 e:\programming\enginesq\glm\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	"neon.h"
+
+1730966274 e:\programming\enginesq\glm\glm\simd\neon.h
+	<arm_neon.h>
+
+1730966274 e:\programming\enginesq\glm\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_sized.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\_swizzle.hpp
+
+1730966274 e:\programming\enginesq\glm\glm\detail\_swizzle_func.hpp
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_int2_sized.hpp
+	"../ext/vector_int2.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\scalar_int_sized.hpp
+	"../detail/setup.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_uint2_sized.hpp
+	"../ext/vector_uint2.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\scalar_uint_sized.hpp
+	"../detail/setup.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_sized.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+	"compute_vector_decl.hpp"
+	"type_vec_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\compute_vector_decl.hpp
+	<functional>
+	"_vectorize.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\_vectorize.hpp
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec_simd.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_int3_sized.hpp
+	"../ext/vector_int3.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_uint3_sized.hpp
+	"../ext/vector_uint3.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_sized.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"compute_vector_decl.hpp"
+	"type_vec_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_int4_sized.hpp
+	"../ext/vector_int4.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\vector_uint4_sized.hpp
+	"../ext/vector_uint4.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat2x3.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat2x4.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat3x2.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+	"../common.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_vector_relational_simd.inl
+
+1730966274 e:\programming\enginesq\glm\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1730966274 e:\programming\enginesq\glm\glm\simd\common.h
+	"platform.h"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat3x4.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat4x2.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat4x3.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"../geometric.hpp"
+	"type_mat4x4_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1730966274 e:\programming\enginesq\glm\glm\simd\exponential.h
+	"platform.h"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1730966274 e:\programming\enginesq\glm\glm\simd\geometric.h
+	"common.h"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_mat4x4_simd.inl
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1730966274 e:\programming\enginesq\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1730966274 e:\programming\enginesq\glm\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_trigonometric_simd.inl
+
+1730966274 e:\programming\enginesq\glm\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\type_half.inl
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_packing_simd.inl
+
+1730966274 e:\programming\enginesq\glm\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1730966274 e:\programming\enginesq\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1730966274 e:\programming\enginesq\glm\glm\simd\integer.h
+
+1731498938 source:e:\programming\enginesq\scripts\script2\script2.cpp
+	<iostream>
+	"script2.h"
+	"../../src/engine/texture.h"
+
+1731498981 e:\programming\enginesq\scripts\script2\script2.h
+	<iostream>
+	"../../space_shooter_game/components.h"
+	"../../dynamicTest/dynamic_script_interface.h"
+	"../../space_shooter_game/shared.h"
+
+1732713645 source:e:\programming\enginesq\editor\main.cpp
+	<cstdio>
+	"../src/engine/SDL_init.h"
+	"../src/game_engine/engine.h"
+	<thread>
+
+1732210714 e:\programming\enginesq\src\game_engine\engine.h
+	"../engine/window.h"
+	"../ecs/engine.h"
+	"../../src/dynamic_loader/dynamic_loader.h"
+	"../../src/dynamic_loader/wrapper_generators.h"
+
+1732539874 source:e:\programming\enginesq\space_shooter_game\script.cpp
+	<iostream>
+	"script.h"
+	"game.h"
+
+1732539956 e:\programming\enginesq\space_shooter_game\script.h
+	"../src/dynamic_loader/dynamic_script_interface.h"
+	"../src/game_engine/engine.h"
+
+1732027345 source:e:\programming\enginesq\src\game_engine\engine.cpp
+	"engine.h"
+
+1732209325 source:e:\programming\enginesq\space_shooter_game\systems.cpp
+	"systems.h"
+
+1733131689 e:\programming\enginesq\src\dynamic_loader\dynamic_loader.h
+	"dynamic_script_interface.h"
+	<windows.h>
+
+1733131689 e:\programming\enginesq\src\dynamic_loader\dynamic_script_interface.h
+
+1732017157 e:\programming\enginesq\src\dynamic_loader\wrapper_generators.h
+	<string>
+	<typeindex>
+	<typeinfo>
+	"extern/va_opt.hpp"
+	"extern/map.h"
+
+1733131689 e:\programming\enginesq\src\dynamic_loader\extern\va_opt.hpp
+
+1733131689 e:\programming\enginesq\src\dynamic_loader\extern\map.h
+
+1732900636 source:e:\programming\enginesq\samples\pong\pong.cpp
+	"pong.h"
+	"engine/texture.h"
+	"components.h"
+	"biecs/biecs.h"
+
+1732541518 e:\programming\enginesq\samples\pong\pong.h
+	"context.h"
+
+1732541541 source:e:\programming\enginesq\samples\pong\context.cpp
+	"context.h"
+
+1733131689 e:\programming\enginesq\samples\pong\context.h
+	"dynamic_loader/dynamic_script_interface.h"
+	"game_engine/engine.h"
+	"engine/resource_manager.h"
+
+1732621919 source:e:\programming\enginesq\samples\pong\systems.cpp
+	"components.h"
+
+1732543232 e:\programming\enginesq\samples\pong\systems.h
+	"ecs/system_manager.h"
+	"context.h"
+
+1732900614 e:\programming\enginesq\samples\pong\components.h
+	"glm.hpp"
+	<string>
+	<sstream>
+	<iomanip>
+	"biecs/biecs.h"
+
+1732621798 e:\programming\enginesq\src\biecs\biecs.h
+	"components/components.h"
+	"systems/systems.h"
+
+1732705461 e:\programming\enginesq\src\biecs\components\components.h
+	"../src/engine/resource_manager.h"
+	"../src/ecs/engine.h"
+	"../src/engine/scancodes.h"
+	<string>
+	<sstream>
+	<iomanip>
+	"glm.hpp"
+
+1732705190 e:\programming\enginesq\src\biecs\systems\systems.h
+	"physics/physics.h"
+
+1732626498 e:\programming\enginesq\src\biecs\systems\physics\physics.h
+	"../../components/components.h"
+	<unordered_set>
+	<vector>
+

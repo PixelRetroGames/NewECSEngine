@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="19" failures="0" disabled="0" errors="0" time="0.197" timestamp="2024-11-21T19:15:34.872" name="AllTests">
+  <testsuite name="SharedResourceManagerTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.025" timestamp="2024-11-21T19:15:34.879">
+    <testcase name="SameArgsLoadTheSameResourceOnlyOnce" file="E:\Programming\EngineSq\test\engine\resource_manager_unittest.cpp" line="61" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.882" classname="SharedResourceManagerTest" />
+    <testcase name="Dealloc" file="E:\Programming\EngineSq\test\engine\resource_manager_unittest.cpp" line="89" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.889" classname="SharedResourceManagerTest" />
+    <testcase name="LoadWithParameterPack" file="E:\Programming\EngineSq\test\engine\resource_manager_unittest.cpp" line="124" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.894" classname="SharedResourceManagerTest" />
+    <testcase name="DeleteManagerBeforeResources" file="E:\Programming\EngineSq\test\engine\resource_manager_unittest.cpp" line="150" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.899" classname="SharedResourceManagerTest" />
+  </testsuite>
+  <testsuite name="UniqueResourceManagerTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.004" timestamp="2024-11-21T19:15:34.909">
+    <testcase name="Trivial" file="E:\Programming\EngineSq\test\engine\resource_manager_unittest.cpp" line="178" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.911" classname="UniqueResourceManagerTest" />
+  </testsuite>
+  <testsuite name="ECSEntityTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.011" timestamp="2024-11-21T19:15:34.920">
+    <testcase name="Id" file="E:\Programming\EngineSq\test\ecs\entity_unittest.cpp" line="6" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.922" classname="ECSEntityTest" />
+    <testcase name="IdReusedTrivial" file="E:\Programming\EngineSq\test\ecs\entity_unittest.cpp" line="22" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.925" classname="ECSEntityTest" />
+    <testcase name="IdReusedIntertwined" file="E:\Programming\EngineSq\test\ecs\entity_unittest.cpp" line="51" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.929" classname="ECSEntityTest" />
+  </testsuite>
+  <testsuite name="ECSEngineTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.009" timestamp="2024-11-21T19:15:34.938">
+    <testcase name="AddComponent" file="E:\Programming\EngineSq\test\ecs\engine_unittest.cpp" line="5" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.940" classname="ECSEngineTest" />
+    <testcase name="GetComponentEmpty" file="E:\Programming\EngineSq\test\ecs\engine_unittest.cpp" line="60" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.945" classname="ECSEngineTest" />
+  </testsuite>
+  <testsuite name="ECSComponentTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.021" timestamp="2024-11-21T19:15:34.959">
+    <testcase name="TypeId" file="E:\Programming\EngineSq\test\ecs\component_unittest.cpp" line="5" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.961" classname="ECSComponentTest" />
+    <testcase name="CreateMaskInitializerList" file="E:\Programming\EngineSq\test\ecs\component_unittest.cpp" line="28" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.969" classname="ECSComponentTest" />
+    <testcase name="CreateMaskTemplate" file="E:\Programming\EngineSq\test\ecs\component_unittest.cpp" line="39" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.977" classname="ECSComponentTest" />
+  </testsuite>
+  <testsuite name="ECSComponentManagerTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.027" timestamp="2024-11-21T19:15:34.988">
+    <testcase name="AddComponent" file="E:\Programming\EngineSq\test\ecs\component_manager_unittest.cpp" line="39" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:34.992" classname="ECSComponentManagerTest" />
+    <testcase name="RemoveComponent" file="E:\Programming\EngineSq\test\ecs\component_manager_unittest.cpp" line="60" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:35.003" classname="ECSComponentManagerTest" />
+    <testcase name="GetComponentsAndEntities" file="E:\Programming\EngineSq\test\ecs\component_manager_unittest.cpp" line="102" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:35.010" classname="ECSComponentManagerTest" />
+  </testsuite>
+  <testsuite name="ECSComponentIterator" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2024-11-21T19:15:35.029">
+    <testcase name="Iterate" file="E:\Programming\EngineSq\test\ecs\component_manager_unittest.cpp" line="123" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:35.031" classname="ECSComponentIterator" />
+  </testsuite>
+  <testsuite name="ECSComponentGroupIterator" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.02" timestamp="2024-11-21T19:15:35.042">
+    <testcase name="IterateOneComponentManager" file="E:\Programming\EngineSq\test\ecs\component_manager_unittest.cpp" line="162" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:35.047" classname="ECSComponentGroupIterator" />
+    <testcase name="IterateMultipleComponentManagers" file="E:\Programming\EngineSq\test\ecs\component_manager_unittest.cpp" line="278" status="run" result="completed" time="0." timestamp="2024-11-21T19:15:35.057" classname="ECSComponentGroupIterator" />
+  </testsuite>
+</testsuites>

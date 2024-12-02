@@ -1,0 +1,4 @@
+EXPORTS
+    CreatePlayerMovementScript @1
+    CreateScript1 @2
+    CreateScript2 @3
