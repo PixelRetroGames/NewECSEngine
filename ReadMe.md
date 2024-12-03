@@ -6,7 +6,17 @@ Entities represent unique identifiers.
 
 Components are structs that represent attributes of entities. Entities can have multiple components, but only one of each type of component.
 
+#### Component example
+
+```cpp
+struct PlayerMovement {
+    Engine::Scancode keyUp, keyDown;
+    PlayerMovement(Engine::Scancode keyUp, Engine::Scancode keyDown) : keyUp(keyUp), keyDown(keyDown) {}
+};
+```
+
 #### Creating a new Entity and adding Components
+
 ```cpp
 auto player = engine->CreateEntity();
 auto texture = textureSharedManager->Load("samples/pong/assets/player.png");
@@ -34,7 +44,7 @@ The Group View can be used in the following ways:
 #### Simple Group View
 
 In this example the filter is `(ECS::Entity, Transform2D and NewTransform2D)`, so the engine will get a Group Iterator over the components of entities that have all of the components from the filter.
-`[entity, transform2D, newTransform]` are references to Components, entity is a component with the id of the entity.
+`[entity, transform2D, newTransform]` are references to Components, entity is a component that holds the id of the entity.
 
 ```cpp
 for (auto [entity, transform2D, newTransform] : ctx->engine->GetGroupView<ECS::Entity, Transform2D, NewTransform2D>()) {
@@ -45,7 +55,7 @@ for (auto [entity, transform2D, newTransform] : ctx->engine->GetGroupView<ECS::E
 
 #### Group View with Optionals
 
-In this example the filter means: `Transform2D` is mandatory and `transform2D` is a reference to the `Transform2D` component, and `ECS::Optional<RenderRect, Scaling, SharedTexturePtr, UniqueTexturePtr>()` means that the rest of the components are optional. The optional components are pointers, null means that the entity does not have that component type of component.
+In this example the filter means: `Transform2D` is mandatory and `transform2D` is a reference to the `Transform2D` component, `ECS::Optional<RenderRect, Scaling, SharedTexturePtr, UniqueTexturePtr>()` means that the rest of the components are optional. The optional components are given as pointers, null meaning that the current entity does not have that type of component.
 
 ```cpp
 for (auto [transform2D, optRenderRect, optScaling, optSharedTexturePtr, optUniqueTexturePtr] :
@@ -87,7 +97,7 @@ Unused means that the filtering also takes into consideration the unused compone
 for (auto [transform2D, renderRect, scaling] : ctx->engine->GetGroupView<Transform2D, RenderRect, Scaling>(ECS::Unused<PlayerMovement>()))
 ```
 
-#### Group View mixed
+#### Group View Mixed
 
 Mandatory, Optional and Unused can be used together for more complex filtering.
 
@@ -96,6 +106,20 @@ for (auto [transform2D, velocity2D, scaling, optCollider] :
         ctx->engine->GetGroupView<Transform2D, Velocity2D, Scaling>(ECS::Optional<Collider>(), ECS::Unused<VelocityMoved>())) {
 ```
 
+### ComponentManager
+Component Manager is a templated container that stores all Components of ComponentT type. It stores the components in a `std::vector` in order to keep data in contiguous memory and maximize cache hits. Component Manager keeps the vector sorted by entity id in order to have `O(log vector::size)` complexity per find. The complexity for adding and removing components is `O(vector::size log vector::size)` because the vector must be sorted afterwards.
+
+#### ComponentManagerView
+ComponentManagerView represents a subset of components specified through a sorted vector of entity ids. It instantiates a ComponentIterator that can be used to loop through components using a given strategy. ComponentIterator keeps track of the position in the container and only searches from that point onwards, because the components are sorted by entity id and the subset is sorted by entity id too.
+
+For example, when a ComponentManagerView is created for a small subset, that means that the elements in the subset are sparse in the full set, so a binary search strategy will yield better results as the gap between one element and the next will be longer.
+
+When the subset is large, the elements in the subset are dense in the full set, so a linear search approach may be faster because of caching and branch prediction. The gap between two elements is shorter so doing a binary search might be more inefficient than just iterating lineary.
+
+For a subset of length `M` and a full set of length `N`, the complexity of using binary search for M elements is `O(M * log N)` and the complexity of the linear search is `O(N)`, because the subset is also sorted. When `M` is approaching `N`, `O(M * log N)` gets worse than `O(N)` complexity wise, but it also gets worse because of the trashing of the cache and difficulty in branch prediction.
+
+#### ComponentGroupView
+ComponentGroupView is a class that holds multiple ComponentManagerViews with the same entity subset. ComponentGroupIterator is a custom iterator that holds a tuple of ComponentIterators and keeps them in sync. For mandatory components the elements are returned as references and for optional components the elements are returned as pointers.
 
 ### Systems
 Systems are callbacks that get called in the order of registration. Systems can be registered as anonymous functions or as objects of classes that implement SystemInterface.
@@ -167,6 +191,40 @@ void TextureRendererSystem::Update() {
 
 // Registration
 engine->Register(new TextureRendererSystem(&gameContext));
+```
+
+## Game Engine
+The game engine has 2 parts: the SDL2 wrappers and the Dynamic Loader. The SDL2 wrappers can be used to quickly get a game up and running, but the ECS engine is not dependant on it, so any graphics library can be used. The Dynamic Loader can be used to load dynamic libraries at runtime.
+
+### Dynamic Loader
+Dynamic Loader is used for loading and managing dynamic libraries. It can be used for running 'one time' scripts (for example, running commands by writing C++ code, compiling it to a dynamic library and load it in the game, all while the game is still running) or for loading new functionality such as Systems, Components, etc. For example, new Component Managers <ComponentType>, or new Systems can be generated and registered in the ECS engine.
+
+The drawbacks of this approach is that once a script is loaded and code from that dynamic library is registered in the ECS engine, the dynamic library can not be easily unloaded. For example, if a Component Manager was generated in the script and registered in the ECS engine, once the dynamic library where that code resides is unloaded, the application will crash as the code is no longer loaded into memory.
+
+```cpp
+// Context class generation
+EVAL(CREATE_CONTEXT(GameContext, (DynamicLoader::DynamicScriptManager<GameContext>, dynamicLoader), (ECS::Engine<ECS::DefaultEngineCore>, engine), (ResourceManagerT, resourceManager), (Engine::Window, window), (float, dt)))
+
+// Objects construction
+DynamicLoader::DynamicScriptManager<GameContext> dynamicScriptManager;
+GameContext gameContext(&dynamicScriptManager, engine, &EngineWrapper::resourceManager, window, &dt);
+dynamicScriptManager.SetContext(&gameContext);
+
+// Loading a script and registering it as a system
+auto playerMovementScript = dynamicScriptManager.Load("script1.dll", "CreatePlayerMovementScript");
+engine->Register([&playerMovementScript, &gameContext]() {
+    if (auto script = playerMovementScript.lock()) {
+        script->Run();
+    } else {
+        LOG_INFO("debug", "Script unloaded");
+    }
+});
+
+// Loading a script and running it
+auto scriptWeak = dynamicScriptManager.Load("script2.dll", "CreateScript1");
+if (auto script = scriptWeak.lock()) {
+    script->Run();
+}
 ```
 
 ## Game Sample
