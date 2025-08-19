@@ -13,8 +13,8 @@ int main(__attribute__((unused)) int argc, __attribute__((unused)) char* args[])
 
     auto gameEngine = GameEngine::GameEngine();
 
-    gameEngine.Execute("Pong.dll", "CreateScript");
-    //gameEngine.Execute("SpaceShooter.dll", "CreateScript");
+    //gameEngine.Execute("Pong.dll", "CreateScript");
+    gameEngine.Execute("SpaceShooter.dll", "CreateScript");
 
     LOG_INFO("debug", "Textures should be deleted");
     Engine::Close();
